@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49ba1e18-d2ef-4829-9212-89198d6d8fb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/webNode/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webNode" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
@@ -94,7 +94,7 @@
       <workItem from="1785940445385" duration="77000" />
       <workItem from="1786394302339" duration="33390000" />
       <workItem from="1789812920223" duration="1000" />
-      <workItem from="1789812955196" duration="1897000" />
+      <workItem from="1789812955196" duration="2568000" />
     </task>
     <servers />
   </component>
