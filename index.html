@@ -1,160 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="mesh-icon.png">
-    <style>
-        body {
-            font-family: "Times New Roman";
-            background-color: #e9ecef;
-            margin: 0;
-        }
-        .page {
-            margin: 0 auto;
-            padding: 0;
-        }
-        header {
-            max-width: 1000px;
-            text-align: center;
-            margin: 0 auto;
-        }
-        p {
-            margin: 0;
-        }
-        a {
-            text-decoration: none;
-        }
-        .btn {
-            font-family: "Times New Roman";
-            margin-top: 50px;
-            background-color: #e9ecef;
-            color: #0c24bc;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 2px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-        .btn:hover {
-            background-color: #ffce04;
-            transform: scale(1.025);
-        }
-        .title {
-            color: #f8fafc;
-            font-size: 72px;
-            font-weight: 100;
-            letter-spacing: 0;
-            line-height: 1;
-        }
-        .subtitle {
-            color: #ffce04;
-            font-size: 24px;
-            margin-top: 32px;
-            /*color: #e9ecef;*/
-            font-weight: 100;
-        }
-        .name {
-            color: #ffce04;
-            text-align: left;
-            font-size: 48px;
-            font-weight: 100;
-            padding: 10px 20px;
-        }
-        .hero {
-            position: relative;
-            /*background: linear-gradient(150deg, #0c24bc, #070b87);*/
-            background: radial-gradient(circle at top left, #1d4ed8 0%, #0c24bc 35%, #070b87 100%);
-            padding: 0 0 70px;
-            text-align: center;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        td {
-            padding: 10px;
-            border-bottom: solid 1px #ddd;
-        }
-        form {
-            margin-left: 200px;
-            margin-right: 150px;
-        }
-        footer {
-            font-size: 20px;
-            margin-top: 100px;
-            margin-left: 50px;
-            margin-bottom: 20px;
-        }
-        .topBar {
-            display: flex;
-            justify-content: left;
-            align-items: center;
-        }
-        .infoTitle {
-            margin-left: 100px;
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-        .infoText {
-            margin-left: 100px;
-            width: 50%;
-            font-size: 24px;
-        }
-    </style>
-    <meta charset="UTF-8">
-    <title>Mesh</title>
-</head>
-<body>
-<div class="page">
-    <div class="hero">
-        <div class="topBar">
-            <div class="name">Mesh</div>
-        </div>
-        <header>
-            <div class="title">Mesh: A lightweight cryptocurrency</div>
-            <div class="subtitle">
-                Mesh is a simple peer-to-peer blockchain with mining,
-                transactions, and a built-in block explorer.
-            </div>
-            <button class="btn" onclick="downloadNodeApp()"><b>Download App</b></button>
-        </header>
-    </div>
-    <main>
-        <p class="infoTitle" style="margin-top: 150px">About Mesh</p>
-        <p class="infoText">
-            Mesh is a small open-source cryptocurrency created by 7xy_
-            to explore how blockchains work. It started as a Python
-            project and was later rewritten in JavaScript as an app,
-            making it easier to install, run, and use across different devices.
-        </p>
+<!--    <link rel="icon" href="mesh-icon.png">-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: "Times New Roman";-->
+<!--            background-color: #e9ecef;-->
+<!--            margin: 0;-->
+<!--        }-->
+<!--        .page {-->
+<!--            margin: 0 auto;-->
+<!--            padding: 0;-->
+<!--        }-->
+<!--        header {-->
+<!--            max-width: 1000px;-->
+<!--            text-align: center;-->
+<!--            margin: 0 auto;-->
+<!--        }-->
+<!--        p {-->
+<!--            margin: 0;-->
+<!--        }-->
+<!--        a {-->
+<!--            text-decoration: none;-->
+<!--        }-->
+<!--        .btn {-->
+<!--            font-family: "Times New Roman";-->
+<!--            margin-top: 50px;-->
+<!--            background-color: #e9ecef;-->
+<!--            color: #0c24bc;-->
+<!--            border: none;-->
+<!--            padding: 12px 24px;-->
+<!--            border-radius: 2px;-->
+<!--            font-size: 16px;-->
+<!--            cursor: pointer;-->
+<!--            transition: 0.2s;-->
+<!--        }-->
+<!--        .btn:hover {-->
+<!--            background-color: #ffce04;-->
+<!--            transform: scale(1.025);-->
+<!--        }-->
+<!--        .title {-->
+<!--            color: #f8fafc;-->
+<!--            font-size: 72px;-->
+<!--            font-weight: 100;-->
+<!--            letter-spacing: 0;-->
+<!--            line-height: 1;-->
+<!--        }-->
+<!--        .subtitle {-->
+<!--            color: #ffce04;-->
+<!--            font-size: 24px;-->
+<!--            margin-top: 32px;-->
+<!--            /*color: #e9ecef;*/-->
+<!--            font-weight: 100;-->
+<!--        }-->
+<!--        .name {-->
+<!--            color: #ffce04;-->
+<!--            text-align: left;-->
+<!--            font-size: 48px;-->
+<!--            font-weight: 100;-->
+<!--            padding: 10px 20px;-->
+<!--        }-->
+<!--        .hero {-->
+<!--            position: relative;-->
+<!--            /*background: linear-gradient(150deg, #0c24bc, #070b87);*/-->
+<!--            background: radial-gradient(circle at top left, #1d4ed8 0%, #0c24bc 35%, #070b87 100%);-->
+<!--            padding: 0 0 70px;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        table {-->
+<!--            width: 100%;-->
+<!--            border-collapse: collapse;-->
+<!--        }-->
+<!--        td {-->
+<!--            padding: 10px;-->
+<!--            border-bottom: solid 1px #ddd;-->
+<!--        }-->
+<!--        form {-->
+<!--            margin-left: 200px;-->
+<!--            margin-right: 150px;-->
+<!--        }-->
+<!--        footer {-->
+<!--            font-size: 20px;-->
+<!--            margin-top: 100px;-->
+<!--            margin-left: 50px;-->
+<!--            margin-bottom: 20px;-->
+<!--        }-->
+<!--        .topBar {-->
+<!--            display: flex;-->
+<!--            justify-content: left;-->
+<!--            align-items: center;-->
+<!--        }-->
+<!--        .infoTitle {-->
+<!--            margin-left: 100px;-->
+<!--            font-size: 40px;-->
+<!--            margin-bottom: 10px;-->
+<!--        }-->
+<!--        .infoText {-->
+<!--            margin-left: 100px;-->
+<!--            width: 50%;-->
+<!--            font-size: 24px;-->
+<!--        }-->
+<!--    </style>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Mesh</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="page">-->
+<!--    <div class="hero">-->
+<!--        <div class="topBar">-->
+<!--            <div class="name">Mesh</div>-->
+<!--        </div>-->
+<!--        <header>-->
+<!--            <div class="title">Mesh: A lightweight cryptocurrency</div>-->
+<!--            <div class="subtitle">-->
+<!--                Mesh is a simple peer-to-peer blockchain with mining,-->
+<!--                transactions, and a built-in block explorer.-->
+<!--            </div>-->
+<!--            <button class="btn" onclick="downloadNodeApp()"><b>Download App</b></button>-->
+<!--        </header>-->
+<!--    </div>-->
+<!--    <main>-->
+<!--        <p class="infoTitle" style="margin-top: 150px">About Mesh</p>-->
+<!--        <p class="infoText">-->
+<!--            Mesh is a small open-source cryptocurrency created by 7xy_-->
+<!--            to explore how blockchains work. It started as a Python-->
+<!--            project and was later rewritten in JavaScript as an app,-->
+<!--            making it easier to install, run, and use across different devices.-->
+<!--        </p>-->
 
-        <p class="infoTitle" style="margin-top: 50px">How Mesh Works</p>
-        <p class="infoText">
-            Mesh is a peer-to-peer cryptocurrency. Each computer running the
-            software keeps a copy of the blockchain, while independently verifying new transactions
-            and blocks. <br><br>
+<!--        <p class="infoTitle" style="margin-top: 50px">How Mesh Works</p>-->
+<!--        <p class="infoText">-->
+<!--            Mesh is a peer-to-peer cryptocurrency. Each computer running the-->
+<!--            software keeps a copy of the blockchain, while independently verifying new transactions-->
+<!--            and blocks. <br><br>-->
 
-            Mining blocks requires the computer to repeatedly test different values
-            until it finds one that produces a valid block. When a miner succeeds,
-            they receive the block reward and share the new block with the rest
-            of the network. This process requires computational work, which makes
-            it difficult to alter confirmed transactions. A transaction becomes
-            more secure as additional blocks are mined after it.<br>
-            <a href="/docs/">View full documentation</a>
-        </p>
-    </main>
+<!--            Mining blocks requires the computer to repeatedly test different values-->
+<!--            until it finds one that produces a valid block. When a miner succeeds,-->
+<!--            they receive the block reward and share the new block with the rest-->
+<!--            of the network. This process requires computational work, which makes-->
+<!--            it difficult to alter confirmed transactions. A transaction becomes-->
+<!--            more secure as additional blocks are mined after it.<br>-->
+<!--            <a href="/docs/">View full documentation</a>-->
+<!--        </p>-->
+<!--    </main>-->
 
-    <footer>
-        <p>© Mesh 2026. Open source.</p>
-        <p><a href="https://github.com/7xy95/MeshApp">View GitHub</a>. For help, contact 7xy@meshcoin.org</p>
-        <p>Found a bug or want to suggest a feature? <a href="https://github.com/7xy95/MeshApp/issues">Report it here</a></p>
-    </footer>
-    <script>
+<!--    <footer>-->
+<!--        <p>© Mesh 2026. Open source.</p>-->
+<!--        <p><a href="https://github.com/7xy95/MeshApp">View GitHub</a>. For help, contact 7xy@meshcoin.org</p>-->
+<!--        <p>Found a bug or want to suggest a feature? <a href="https://github.com/7xy95/MeshApp/issues">Report it here</a></p>-->
+<!--    </footer>-->
+<!--    <script>-->
 
-        function downloadNodeApp(){
-            window.location.href="https://github.com/7xy95/MeshApp/releases"
-        }
-    </script>
-</div>
-</body>
+<!--        function downloadNodeApp(){-->
+<!--            window.location.href="https://github.com/7xy95/MeshApp/releases"-->
+<!--        }-->
+<!--    </script>-->
+<!--</div>-->
+<!--</body>-->
 </html>
